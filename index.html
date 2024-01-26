@@ -3,11 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!--Tailwind CDN-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./src/styles/fonts.css">
+    <title>DSMasters</title>
 </head>
-<body>
+<body class="container mx-auto">
     <header>
-        
+
     </header>
+    <main class="flex">
+        <section class="w-[330px] h-lvh bg-[#00B2EA]">
+            <div class="info_card">
+                <img class="logo mx-auto mt-[20px]" src="./src/images/Logo.png" alt="Logo">
+                <div class="w-[170px] h-[170px] mx-auto bg-white rounded-[50%] mt-[7px]">
+                    <img src="./src/images/avatar.png" alt="avatar">
+                </div>
+                <div class="flex gap-[7px] flex-col">
+                    <h3 class="mx-auto text-white font-medium text-[20px]">DecoStudio XK</h3>
+                    <h3 class="mx-auto text-white font-bold text-[20px]">DIREKTOR</h3>
+                    <h3 class="mx-auto text-white font-medium text-[20px]">Davronbek Matvaliyev</h3>
+                </div>
+                <nav class="mt-[100px]">
+                    <ul class="flex flex-col gap-[12px]">
+                        <li class="mx-auto"><a class="text-white font-bold  text-[18px] p-[9px] hover:border-[2px] rounded-lg active:bg-white active:text-[#00B2EA]" href="#">Bosh sahifa</a></li>
+                        <li class="mx-auto"><a class="text-white font-bold  text-[18px] p-[9px] hover:border-[2px] rounded-lg active:bg-white active:text-[#00B2EA]" href="#">Ombor</a></li>
+                        <li class="mx-auto"><a class="text-white font-bold  text-[18px] p-[9px] hover:border-[2px] rounded-lg active:bg-white active:text-[#00B2EA]" href="#">Ta’minotchi</a></li>
+                        <li class="mx-auto"><a class="text-white font-bold  text-[18px] p-[9px] hover:border-[2px] rounded-lg active:bg-white active:text-[#00B2EA]" href="#">Kontragent</a></li>
+                        <li class="mx-auto"><a class="text-white font-bold  text-[18px] p-[9px] hover:border-[2px] rounded-lg active:bg-white active:text-[#00B2EA]" href="#">Xodimlar</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+        </section>
+        <section class="w-[1110px]  bg-yellow-500">
+            <header class="h-[60px] w-[1110px] bg-[#BBE7F4]">
+
+            </header>
+
+        </section>
+    </main>
 </body>
 </html>
